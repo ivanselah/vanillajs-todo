@@ -24,7 +24,7 @@ function paintGreetings(username){
         greeting.innerHTML = `Good Morning, ${username}.`;
     } else if (hours >= 12 && hours < 18) {
         greeting.innerHTML = `Good afternoon, ${username}.`;
-    } else if (hours >= 18 && hours < 0) {
+    } else if (hours >= 18 && hours < 24) {
         greeting.innerHTML = `Good evening, ${username}.`;
     } else {
         greeting.innerHTML = `Never give up, ${username}.`;
