@@ -71,6 +71,17 @@ img {
         background-color: transparent;
         color:white;
     }
+    #input1 {
+        font-size: 30px;
+        text-align: center;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 70px;
+        border: none;
+        background-color: transparent;
+        color:white;
+    }
     .inner-quote {
         display: flex;
         flex-direction: column;
@@ -116,6 +127,17 @@ img {
         border-left: none;
         border-right: none;
         border-bottom: solid 1px white;
+        background-color: transparent;
+        color:white;
+    }
+    #input1 {
+        font-size: 50px;
+        text-align: center;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 70px;
+        border: none;
         background-color: transparent;
         color:white;
     }
@@ -175,6 +197,17 @@ img {
         background-color: transparent;
         color:white;
     }
+    #input1 {
+        font-size: 50px;
+        text-align: center;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 70px;
+        border: none;
+        background-color: transparent;
+        color:white;
+    }
     .inner-quote {
         display: flex;
         flex-direction: column;
@@ -229,6 +262,17 @@ img {
         background-color: transparent;
         color:white;
     }
+    #input1 {
+        font-size: 50px;
+        text-align: center;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 70px;
+        border: none;
+        background-color: transparent;
+        color:white;
+    }
     .inner-quote {
         display: flex;
         flex-direction: column;
@@ -252,17 +296,6 @@ img {
     align-items: center;
     position: fixed;
     z-index: 1000;
-}
-#input1 {
-    font-size: 50px;
-    text-align: center;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    height: 70px;
-    border: none;
-    background-color: transparent;
-    color:white;
 }
 #input1, #input2:focus{
     outline: none;
