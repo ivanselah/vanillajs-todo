@@ -96,7 +96,7 @@ img {
     }
     #quote {
         display: flex;
-        height: 100px;
+        height: 80px;
         text-align: center;
     }
 }
@@ -155,7 +155,7 @@ img {
     }
     #quote {
         display: flex;
-        height: 100px;
+        height: 80px;
         align-items: center;
     }
     .todo_list_Q > h1{
@@ -222,7 +222,7 @@ img {
     }
     #quote {
         display: flex;
-        height: 100px;
+        height: 80px;
         align-items: center;
     }
     .todo_list_Q > h1{
