@@ -1,6 +1,8 @@
 const toDoForm = document.getElementById("todo-form");
 const toDoInput = toDoForm.querySelector("input");
 const toDoList = document.getElementById("todo-list");
+const toDoMeg2 = document.getElementById("todo-message");
+const todo_list_delete = document.querySelector(".todo_list_delete");
 
 const TODOS_KEY = "todos";
 
@@ -13,6 +15,8 @@ function saveToDos(){
 function deleteTodo(event){
     const li = event.target.parentElement;
     li.remove();
+    toDoMeg2.innerText = "What is your main focus for today?";
+    todo_list_delete.classList.remove("hidden");
     toDos = toDos.filter((todo) => (todo.id !== parseInt(li.id)));
     saveToDos();
 }
@@ -39,9 +43,14 @@ function handleToDoSumit(event){
         id: Date.now(),
         text:newTodo,
     };
-    toDos.push(newTodoObj);
-    paintTodo(newTodoObj);
-    saveToDos(newTodo);
+    if (toDos.length > 3) {
+        todo_list_delete.classList.add("hidden");
+        toDoMeg2.innerText = "Please delete todo-list";
+    } else {
+        toDos.push(newTodoObj);
+        paintTodo(newTodoObj);
+        saveToDos(newTodo);
+    }
 }
 
 

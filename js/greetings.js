@@ -2,7 +2,7 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector('#greeting');
 const todo_list = document.querySelector("div.todo_list_Q");
-
+const toDoMeg1 = document.getElementById("todo-message");
 
 const HIDDEN_CLASSNAME = "hidden"
 const TODOLIST_CLASSNAME = "todo_list_Q";
@@ -18,6 +18,7 @@ function onLoginSubmit(event){
 }
 
 function paintGreetings(username){
+    toDoMeg1.innerText = "What is your main focus for today?";
     const nowDate = new Date();
     const hours = nowDate.getHours();
     if (hours >= 6 && hours < 12){
