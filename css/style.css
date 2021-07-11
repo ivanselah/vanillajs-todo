@@ -218,6 +218,7 @@ img {
     #quotes {
         position: fixed;
         bottom: 0;
+        margin-bottom: 5px;
         color: white;
     }
     #quote {
@@ -284,6 +285,7 @@ img {
         position: fixed;
         bottom: 0;
         color: white;
+        margin-bottom: 5px;
     }
     #quote {
         display: flex;
