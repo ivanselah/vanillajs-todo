@@ -72,7 +72,7 @@ img {
         color:white;
     }
     #input1 {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
         border-top: none;
         border-left: none;
@@ -85,7 +85,7 @@ img {
     .inner-quote {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        text-align: center;
         font-size: 17px;
     }
     #quotes {
